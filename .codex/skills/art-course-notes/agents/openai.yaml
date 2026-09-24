@@ -1,0 +1,6 @@
+interface:
+  display_name: "绘画课堂笔记"
+  short_description: "将本地绘画课程整理为可复习课堂笔记"
+  default_prompt: "Use $art-course-notes to analyze this local drawing-course video and create evidence-based Chinese study notes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+# Base local dependencies
+PyYAML>=6.0
+opencv-python>=4.8
+Pillow>=10.0
+
+# Install "pip install -e .[asr]" to add local faster-whisper transcription.

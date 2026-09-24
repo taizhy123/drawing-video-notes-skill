@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+config.local.yaml
+
+# Input, models, caches, and generated learning material
+input/
+output/
+cache/
+models/
+*.wav
+*.flac
+*.srt
+*.vtt
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+
+# Editors and operating systems
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

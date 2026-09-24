@@ -1,0 +1,21 @@
+# Defaults are intentionally conservative; use --mode deep for important courses.
+output_root: output
+language: auto
+output_language: zh-CN
+asr:
+  model: small
+  device: auto
+  compute_type: auto
+  beam_size: 5
+chunking:
+  target_minutes: 12
+  min_minutes: 8
+  max_minutes: 15
+  overlap_seconds: 30
+keyframes:
+  scene_threshold: 0.28
+  normal_interval_seconds: 150
+  deep_interval_seconds: 75
+  max_per_chunk_normal: 4
+  max_per_chunk_deep: 8
+  jpeg_quality: 88
